@@ -319,7 +319,9 @@ dependencies = [
 
 [[package]]
 name = "rust-hdl-bsp-step-mxo2-lpc"
-version = "0.1.1"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cdcfb77ea3d8fa12b6f3d09194e52896dd3ef7bb097c35883f99a6a27f9c7a4f"
 dependencies = [
  "rust-hdl",
 ]
