@@ -114,7 +114,7 @@ impl Logic for Segment {
             }
             _ => {
                 self.displays[0].segments.next = self.symbols[0].val();
-                self.displays[1].segments.next = self.symbols[0].val();
+                self.displays[1].segments.next = self.symbols[1].val();
             }
         }
     }
