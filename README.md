@@ -5,8 +5,8 @@
 Based on support package [rust-hdl-bsp-step-mxo2-lpc](https://github.com/y5c4l3/rust-hdl-bsp-step-mxo2-lpc).
 
 The support package requires these open FPGA synthesis and P&R tools:
-  * (`yosys`)[https://github.com/YosysHQ/yosys]
-  * (`nextpnr-machxo2`)[https://github.com/YosysHQ/nextpnr]
+  * [`yosys`](https://github.com/YosysHQ/yosys)
+  * [`nextpnr-machxo2`](https://github.com/YosysHQ/nextpnr)
   * [JEDEC bitstream patched `ecppack`](https://github.com/cr1901/prjtrellis/tree/jed)
 
 This project includes 4 examples:
