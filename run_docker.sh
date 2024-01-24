@@ -27,4 +27,4 @@ fi
 image="y5c4l3/step-mxo2-lpc-toolchains:latest"
 docker run -v "$(pwd):/app" --rm "$image" \
     sh -c \
-    "cd /app; ./target/debug/rust-on-step-mxo2-lpc; chown -R $uid:$gid ./firmware"
+    "cd /app; $binary; chown -R $uid:$gid ./firmware"
