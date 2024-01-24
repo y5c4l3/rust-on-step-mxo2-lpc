@@ -23,7 +23,7 @@ enum State {
 
 #[derive(LogicBlock)]
 pub struct Segment {
-    pub clock: Signal<In, Clock>,
+    clock: Signal<In, Clock>,
     counter: DFF<Bits<24>>,
     threshold: Constant<Bits<24>>,
     state: DFF<State>,
