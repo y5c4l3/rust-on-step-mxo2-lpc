@@ -9,7 +9,7 @@ if ! docker ps >/dev/null ; then
 fi
 
 debug_binary="./target/debug/rust-on-step-mxo2-lpc"
-release_binary="./target/debug/rust-on-step-mxo2-lpc"
+release_binary="./target/release/rust-on-step-mxo2-lpc"
 
 if [ -f "$debug_binary" ] || [ -f "$release_binary" ]; then
     if [ "$release_binary" -nt "$debug_binary" ]; then
